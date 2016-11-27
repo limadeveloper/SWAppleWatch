@@ -14,8 +14,13 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="TimerWatch" customModuleProvider="target">
                     <items>
-                        <timer width="1" alignment="center" textAlignment="center" enabled="YES" previewedSeconds="0" id="bl9-7K-hGn"/>
-                        <button width="1" alignment="left" title="Start" id="wxV-5V-fUO">
+                        <label alignment="center" text="TIMER" textAlignment="center" id="IIN-cB-GUN">
+                            <color key="textColor" red="1" green="0.0" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" type="boldSystem" pointSize="14"/>
+                        </label>
+                        <separator alignment="left" id="CDj-MU-9bW"/>
+                        <timer width="1" alignment="center" verticalAlignment="center" textAlignment="center" format="abbreviated" previewedSeconds="0" id="bl9-7K-hGn"/>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Start" id="wxV-5V-fUO">
                             <connections>
                                 <action selector="start" destination="AgC-eL-Hgc" id="CWe-8y-mIO"/>
                             </connections>
